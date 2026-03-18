@@ -3,7 +3,7 @@ import { insforge } from '../../lib/insforge';
 import { CreditCard, Check, History, Download, Loader2 } from 'lucide-react';
 
 const PlanCard = ({ plan, onUpgrade, disabled }: any) => {
-  const { name, price, features, current, color } = plan;
+  const { name, price, features, current } = plan;
   return (
   <div className={`relative p-6 rounded-twelve border-2 transition-all ${
     current 
